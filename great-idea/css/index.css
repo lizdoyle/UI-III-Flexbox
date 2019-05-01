@@ -70,56 +70,66 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 	
 }
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+
+}
 
 header nav {
-	display: inline-block;
 	margin-top: 40px;
+	
 
 }
 header nav a {
 	text-decoration: none;
-	margin: 30px;
+	margin: 20px;
 	color: lightslategray;
 }
 header img.logo {
-	display: inline-block;
 	margin-top: 30px;
 	margin-left: 20px;
+	
 }
 .hero {
-	/* display: inline-block; */
 	height: 500px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .hero h1 {
-	display: inline-block;
+	/* display: inline-block; */
 	font-family: 'Titillium-Web' sans-serif;
-	line-height: 1.0;
+	line-height: 1.1;
 	font-size: 72px;
 	text-align: center;
 	letter-spacing: 7px;
-	margin: 50px 20px;
+	margin: 50px 0;
 
 }
 .heroText {
-	display:inline-block;
+	/* display:inline-block; */
+	/* display: flex; */
 	margin: 30px 0 0 20px;
 }
 .hero img {
-	display: inline-block;
-	float: right;
+	width: 85%;
+	height: 85%;
+	/* display: inline-block; */
+	/* float: right; */
 	/* margin: 50px auto; */
 	/* vertical-align: middle; */
 	/* position: relative; */
-	margin-top: 60px;
-	padding: 0 30px;
+	/* margin-top: 60px; */
+	padding: 50px 50px;
 
 	
 }
 
 .hero button {
-	display: block;
-	margin: 0 0 0 120px;
+	/* display: block; */
+	margin: 0 0 0 85px;
 	padding: 5px 20px;
 	font-family: 'Titillium-Web' sans-serif;
 	font-size: 20px;
@@ -129,57 +139,59 @@ header img.logo {
 
 
 main .main-content {
-	display: inline-block;
+	/* display: inline-block; */
 	margin: 0 auto;
 	padding: 0 30px;
 
 }
 main .main-content .top-row {
-	display: inline-block;
+	/* display: inline-block; */
 	margin: 10px 30px;
 	padding: 20px;
 	width: 250px;
 	height: auto;
 }
 .top-row {
-	display:block;
+	display: flex;
+	justify-content: space-between;
 	padding: 20px 0;
 	border-top: 1px solid #000;
-	padding-top: 50px;
+	padding-top: 35px;
 }
 
 .t1 {
-	display: inline-block;
-	width: 45%;
-	margin: 0 20px 20px 0;
+	/* display: inline-block; */
+	width: 47%;
+	/* margin: 0 20px 20px 0; */
 }
 .t2 {
 	display: inline-block;
-	width: 45%;
-	margin: 0 0 20px 20px;
+	width: 47%;
+	/* margin: 0 0 20px 20px; */
 }
 
 .bottom-row {
-	display:block;
-	padding: 20px 0;
+	display:flex;
+	justify-content: space-between;
+	padding: 15px 0;
 	border-bottom: 1px solid #000;
-	padding-bottom: 50px;
+	padding-bottom: 35px;
 }
 
 .b1 {
-	display: inline-block;
-	width: 30%;
+	/* display: inline-block; */
+	width: 31%;
 	/* margin: 0 20px 20px 0; */
 }
 
 .b2 {
-	display: inline-block;
-	width: 30%;
-	margin: 0 30px;
+	/* display: inline-block; */
+	width: 31%;
+	
 }
 .b3 {
-	display: inline-block;
-	width: 30%;
+	/* display: inline-block; */
+	width: 31%;
 	/* margin: 0 0 20px 20px; */
 }
 .main-image {
